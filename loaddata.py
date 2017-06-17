@@ -9,4 +9,6 @@ for input in fi:
 
     for item in record:
         sys.stdout.write(item)
+
+    sys.stdout.write('\n')
 fi.close()
