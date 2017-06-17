@@ -11,11 +11,12 @@ for input in fi:
 
     sys.stdout.write("%s\t" % address[0])
     sys.stdout.write("%s\t" % ' '.join(address[1:]))
+    sys.stdout.write("%s\n" % '\t'.join(input[2:]))
 
-    for item in record:
-        sys.stdout.write("%s\t" % item)
+#    for item in record:
+#        sys.stdout.write("%s\t" % item)
 
-    sys.stdout.write('\n')
+#    sys.stdout.write('\n')
 fi.close()
 
 #ShortPropertyAddressZipcodeToNameAddresseeStreetCityStateZip
