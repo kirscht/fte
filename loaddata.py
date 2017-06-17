@@ -10,6 +10,5 @@ for input in fi:
     record =  input.split('\t')
 
     for item in record:
-        sys.steout.write(item)
-
+        sys.stdout.write(item)
 fi.close()
