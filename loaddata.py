@@ -10,7 +10,7 @@ for input in fi:
     address = record[0].split(' ')
 
     sys.stdout.write("%s\t" % address[0])
-    sys.stdout.write("%s\t" % ' '.join(address[1:-1]))
+    sys.stdout.write("%s" % ' '.join(address[1:-1]))
     sys.stdout.write("%s\n" % '\t'.join(address[2:]))
 
 #    for item in record:
