@@ -8,6 +8,6 @@ for input in fi:
     record =  input.split('\t')
 
     for item in record:
-        print item
+        print(item, end="")
 
 fi.close()
