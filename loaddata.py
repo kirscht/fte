@@ -17,7 +17,7 @@ for input in fi:
 #    for item in record:
 #        sys.stdout.write("%s\t" % item)
 
-#    sys.stdout.write('\n')
+    sys.stdout.write('\n')
 fi.close()
 
 #ShortPropertyAddressZipcodeToNameAddresseeStreetCityStateZip
