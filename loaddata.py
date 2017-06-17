@@ -7,7 +7,7 @@ fi = open("/home/kkirscht/Downloads/Mailing_CurrentSheet1_20170616.tsv","r")
 for input in fi:
     record =  input.rstrip().split('\t')
 
-    address = record.split(' ')
+    address = record[0].split(' ')
 
     sys.stdout.write("%s\t" % address[0])
     sys.stdout.write("%s\t" % ' '.join(address[1:]))
