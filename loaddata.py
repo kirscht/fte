@@ -11,8 +11,8 @@ for input in fi:
 
     sys.stdout.write("%s\t" % address[0])
     sys.stdout.write("%s " % ' '.join(address))
-    sys.stdout.write(' '.join(record))
-    sys.stdout.write("%s\n" % '\t'.join(address[2:]))
+    #sys.stdout.write(' '.join(record))
+    #sys.stdout.write("%s\n" % '\t'.join(address[2:]))
 
 #    for item in record:
 #        sys.stdout.write("%s\t" % item)
