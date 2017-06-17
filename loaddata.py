@@ -7,7 +7,7 @@ fi = open("/home/kkirscht/Downloads/Mailing_CurrentSheet1_20170616.tsv","r")
 for input in fi:
     record =  input.split('\t')
 
-for item in record:
-    print item
+    for item in record:
+        print item
 
 fi.close()
