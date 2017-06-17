@@ -7,6 +7,10 @@ fi = open("/home/kkirscht/Downloads/Mailing_CurrentSheet1_20170616.tsv","r")
 for input in fi:
     record =  input.rstrip().split('\t')
 
+    address = input.split(' ')
+
+    sys.stdout.write(address[0])
+
     for item in record:
         sys.stdout.write("%s\t" % item)
 
