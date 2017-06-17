@@ -2,4 +2,4 @@
 
 print "hello world"
 
-fi = open("Mailing_CurrentSheet1_20170616.tsv","r")
+fi = open("/home/kkirscht/Downloads/Mailing_CurrentSheet1_20170616.tsv","r")
