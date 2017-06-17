@@ -5,7 +5,9 @@ print "hello world"
 fi = open("/home/kkirscht/Downloads/Mailing_CurrentSheet1_20170616.tsv","r")
 
 for input in fi:
-    print input
+    record =  input.split()
 
+for item in record:
+    print item
 
 fi.close()
